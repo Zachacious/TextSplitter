@@ -1,0 +1,33 @@
+{
+  "name": "@zachacious/textsplitter",
+  "version": "1.0.0",
+  "description": "Splits text into individual elements for words and characters for the purpose of animation with the ability to revert back regular text",
+  "main": "dist/textsplitter.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zachacious/TextSplitter.git"
+  },
+  "keywords": [
+    "text",
+    "split",
+    "splitting",
+    "div",
+    "span",
+    "animation",
+    "gsap"
+  ],
+  "author": "Zach Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zachacious/TextSplitter/issues"
+  },
+  "homepage": "https://github.com/Zachacious/TextSplitter#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.67.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
