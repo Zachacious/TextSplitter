@@ -15,7 +15,7 @@ const wordCache = {};
  * @returns {Array} result.chars A List of character elements.
  * @returns {Function} result.revert Reverts the split text back to original.
  */
-const SplitText = (divString, options) => {
+const split = (divString, options) => {
   const el = document.querySelector(divString);
 
   if (!el) {
@@ -84,7 +84,7 @@ const SplitText = (divString, options) => {
  * its original state.
  * @param {String} divString '#id' or '.class'
  */
-const RevertSplitText = (divString) => {
+const revert = (divString) => {
   const el = document.querySelector(divString);
   if (!el) {
     console.error(
@@ -102,4 +102,4 @@ const RevertSplitText = (divString) => {
   }
 };
 
-export { SplitText, RevertSplitText };
+export default split;

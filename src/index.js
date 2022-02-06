@@ -1,3 +1,3 @@
-import { SplitText, RevertSplitText } from "./split";
+import split from "./split";
 
-export { SplitText, RevertSplitText };
+export { split };
