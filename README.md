@@ -1,6 +1,13 @@
 # TextSplitter
 
 Split an element with text into multiple elements containing words and chars.
+Small < 2kb
+
+## Installation
+
+```bash
+npm install @zachacious/textsplitter
+```
 
 ## Usage
 
